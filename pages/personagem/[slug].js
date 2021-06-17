@@ -1,5 +1,5 @@
 import styles from "./Personagem.module.css";
-import Link from "next/Link";
+import Link from "next/link";
 
 
 
@@ -13,7 +13,7 @@ export default function Personagem({ personagem }) {
         <>
     
         <header>
-        <Link href="./pages/index.js">  
+        <Link href="index.js">  
             <div className="logo">
                 <div className="logo1">Breaking Bad</div>
                 <div className="logo2">Characters</div> 
