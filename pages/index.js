@@ -9,9 +9,9 @@ export default function Home({ personagens }) {
   return(
     <>
     <header>
-      <div className="logo">
-        <div className="logo1">Breaking Bad</div>
-        <div className="logo2">Characters</div> 
+      <div className="titulo">
+        <div className="titulo1">Breaking Bad</div>
+        <div className="titulo2">Characters</div> 
       </div>
     </header>
     

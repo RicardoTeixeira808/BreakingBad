@@ -13,7 +13,7 @@
 
 
 :root{
-    font-size: 1.1vw;
+    
     --cor:rgb(255, 255, 255);
     background-color: rgb(54, 148, 87);
     --cor-escura:rgb(31, 96, 50);;
@@ -29,30 +29,37 @@ header{
     color:var(--cor);
     position: fixed;
     top: 0;
-    
     display: flex;
-    font-size: 2rem;
-    height: 5rem;
-    padding: 0 1.5rem;
+    height: 5.5rem;
     width: 100%;
     background-color: var(--cor-escura);
-    align-items: center;
-    justify-content: center;
-}
+    
+   
 
 
-.logo{
-    border: white 2px solid;
-    padding: 2px 16px;
+    outline: white 2px solid;
 }
 
-.logo1{
-    font-size: 1.6rem;
+.titulo{
+    display: flex;
+    justify-content: flex-start;
+
+    margin-left: 10vw;
+    align-items: baseline;
+    padding-top: 5px;
 }
 
-.logo2{
-    font-size: 1.4rem;
+.titulo1{
+    padding-top: 8px;
+    font-size: 48px;
 }
+
+.titulo2{
+    margin-left: 8px;
+    font-size: 30px;
+    
+}
+
 
 
 a{
@@ -91,7 +98,7 @@ a{
 .card-name{
     padding-top: 0.3rem;
     text-align: center;
-    font-size: 4vh;
+    font-size: 30px;
 }
 
 .card-img img{
@@ -103,10 +110,42 @@ a{
 
 
 @media screen and (max-width: 1080px){
-    
+    .row{
+        justify-content: center; 
+        
+    }
 }
 
 @media screen and (max-width: 769px){
 
+    .row{
+        justify-content: center; 
+        
+    }
+
+    .titulo{
+        
+        padding-top: 10px;
+    }
+
+    .titulo1{
+        padding-top: 10px;
+        font-size: 36px;
+          
+    }
+    
+    .titulo2{
+        margin-left: 8px;
+        font-size: 24px;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 640px){
+    .header{
+        justify-content: center; 
+    }
 
 }

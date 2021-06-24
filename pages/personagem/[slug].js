@@ -13,10 +13,10 @@ export default function Personagem({ personagem }) {
         <>
     
         <header>
-        <Link href="index.js">  
-            <div className="logo">
-                <div className="logo1">Breaking Bad</div>
-                <div className="logo2">Characters</div> 
+        <Link href="/">  
+            <div className={styles.titulo}>
+                <div className={styles.titulo1}>Breaking Bad</div>
+                <div className={styles.titulo2}>Characters</div> 
             </div>
         </Link>
         </header>
